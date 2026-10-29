@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paint Drop · Support</title>
+<link rel="icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap">
+<style>
+  :root { --bg:#f0f0f0; --card:#fff; --ink:#2b2b2b; --muted:#6f6b67; --line:#e4e1dd; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1b1a19; --card:#262523; --ink:#ecebe8; --muted:#a29d97; --line:#3a3835; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:"Quicksand",system-ui,-apple-system,sans-serif; font-weight:500; line-height:1.55; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px 64px; }
+  .drops { display:flex; gap:6px; margin-bottom:14px; }
+  .drops span { width:14px; height:14px; border-radius:50%; }
+  h1 { font-size:clamp(28px,6vw,38px); margin:0 0 6px; font-weight:700; }
+  .lead { color:var(--muted); margin:0 0 28px; }
+  section { background:var(--card); border-radius:18px; padding:20px 20px 8px; margin-bottom:20px; }
+  h2 { font-size:21px; margin:0 0 4px; font-weight:700; }
+  .what { color:var(--muted); margin:0 0 12px; }
+  a { color:#2a9fb8; }
+  pre { white-space:pre-wrap; word-wrap:break-word; font:13px/1.5 ui-monospace,"SF Mono",Menlo,monospace; background:var(--bg); border-radius:10px; padding:14px; margin:0 0 14px; }
+  footer { color:var(--muted); font-size:14px; text-align:center; margin-top:28px; }
+
+  .head { display:flex; align-items:center; gap:14px; margin-bottom:6px; }
+  .head img { width:64px; height:64px; border-radius:15px; box-shadow:0 2px 8px rgba(0,0,0,.12); }
+  .head h1 { margin:0; }
+  section p, section li { margin:0 0 12px; }
+  section ul { padding-left:20px; margin:0 0 12px; }
+  h3 { font-size:17px; margin:14px 0 4px; font-weight:700; }
+  nav { display:flex; gap:16px; flex-wrap:wrap; margin:0 0 26px; }
+  nav a { font-weight:700; }
+  .mail { font-size:18px; font-weight:700; }
+
+  .head { display:flex; align-items:center; gap:14px; margin-bottom:6px; }
+  .head img { width:64px; height:64px; border-radius:15px; box-shadow:0 2px 8px rgba(0,0,0,.12); }
+  .head h1 { margin:0; }
+  section p, section li { margin:0 0 12px; }
+  section ul { padding-left:20px; margin:0 0 12px; }
+  h3 { font-size:17px; margin:14px 0 4px; font-weight:700; }
+  nav { display:flex; gap:16px; flex-wrap:wrap; margin:0 0 26px; }
+  nav a { font-weight:700; }
+  .mail { font-size:18px; font-weight:700; }
+</style>
+</head>
+<body>
+<main>
+  <div class="head"><img src="icon.png" alt="Paint Drop app icon"><h1>Paint Drop support</h1></div>
+  <p class="lead">Catch the falling paint on the matching color.</p>
+  <nav><a href="index.html" aria-current="page">Support</a> <a href="privacy.html">Privacy Policy</a> <a href="licenses.html">Licenses</a></nav>
+  <section>
+    <h2>Contact</h2>
+    <p>Questions, bugs or ideas? Email us and we'll get back to you.</p>
+    <p class="mail"><a href="mailto:jordangames.support@gmail.com">jordangames.support@gmail.com</a></p>
+    <p class="what">When reporting a problem, please include your device model and iOS version.</p>
+  </section>
+
+  <section>
+    <h2>How to play</h2>
+    <p>Paint drops fall toward a row of colored tiles. Tap the left or right side of the screen to slide the tiles, and catch each drop on the tile of the same color. Hold to slide faster. One wrong color ends the run.</p>
+  </section>
+
+  <section>
+    <h2>Frequently asked questions</h2>
+    <h3>How do I unlock new drops?</h3>
+    <p>New drops unlock one per run when you reach certain scores: Chameleon, Double, Chain, Rainbow, Triple and Ping Pong. Once unlocked, a drop can show up in every run.</p>
+    <h3>Why is the Daily Drop locked?</h3>
+    <p>Unlock every drop in normal mode and the Daily Drop opens. It's a new challenge every day, the same for everyone, with its own leaderboard.</p>
+    <h3>I bought Remove Ads. How do I get it back on a new device?</h3>
+    <p>Open Settings in the game and tap <b>Restore Purchases</b>, signed in with the same Apple Account you used to buy it.</p>
+    <h3>My score isn't on the leaderboard.</h3>
+    <p>Leaderboards use Game Center. Make sure you're signed in to Game Center in the iPhone Settings app, then play a run; your best score is sent automatically.</p>
+    <h3>Can I turn off sound or vibration?</h3>
+    <p>Yes, both have switches in the game's Settings.</p>
+  </section>
+
+  <footer>Paint Drop · A game by Jordan Overmyer</footer>
+</main>
+</body>
+</html>
